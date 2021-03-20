@@ -1,0 +1,44 @@
+
+        body{
+            margin:0;
+            padding:0;
+            height:100%;
+            width:100%;
+        }
+        
+        .container {
+                background-image:url("images/lightbulb.png");
+                background-repeat:no-repeat;
+                background-position-x:0px;
+                background-position-y:0px;
+                background-size:2560px 1330px;
+                transition: 5s;
+
+                animation-name:animate;
+                animation-direction:alternate-reverse;
+                animation-duration:30s;
+                animation-fill-mode:forwards;
+                animation-iteration-count:infinite;
+                animation-play-state:running;
+                animation-timing-function:ease-in-out;
+
+                @keyframes animate {
+                    0%{
+                        background-image:url("images/lightbulb.png");
+                    }20%{
+                        background-image:url("images/boo.png");
+                    }40%{
+                        background-image:url("images/placeholder1.jpg");
+                    }60%{
+                        background-image:url("images/placeholder2.jpg");
+                    }80%{
+                        background-image:url("images/placeholder3.jpg");
+                    }100%{
+                        background-image:url("images/placeholder4.jpg");
+                    }
+                }
+
+
+            
+            
+            }
