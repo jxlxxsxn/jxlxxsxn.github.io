@@ -72,3 +72,6 @@ cursorModifiers.forEach(curosrModifier => {
 // git add .
 // git commit -m "Put some random message here to show your progress"
 // git push
+
+// To check which files you've edited: git status
+// To pull from Github: git pull -r
