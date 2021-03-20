@@ -67,3 +67,8 @@ cursorModifiers.forEach(curosrModifier => {
     cursor.classList.remove(className);
   });
 });
+
+
+// git add .
+// git commit -m "Put some random message here to show your progress"
+// git push
