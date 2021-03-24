@@ -6,3 +6,7 @@ git add . // Add everything you've changed/added into staged
 git commit -m "Message" // commit changes
 
 git push // push changes onto github
+
+
+
+git pull -r // pull changes from github to update 
