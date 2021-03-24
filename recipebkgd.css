@@ -15,43 +15,69 @@
             background-attachment:fixed;
             background-position:center;
             background-repeat:no-repeat;
+            animation:pagetransitionsub 3s linear;
+}
 
+@keyframes pagetransitionsub{
+    0% {background-color:black;opacity:0;}
+
+    55% {background-color:black; opacity:0.1;}
+
+    60% {background-color:black;opacity:0.2;}
+
+    65% {background-color:black;opacity:0.3;}
+
+    70% {background-color:black;opacity:0.4;}
+
+    75% {background-color:black;opacity:0.5;}
+
+    80% {background-color:black;opacity:0.6;}
+
+    85% {background-color:black;opacity:0.7;}
+    
+    90% {background-color:black;opacity:0.8;}
+
+    95% {background-color:black;opacity:0.9;}
+
+    100%{background-color:black;opacity:1;}
+}
+        }
            
     
 
-        @media screen and (min-device-width:1920px){
-            .container{
+        /* @media screen and (min-device-width:1562px){
+            .onsenbkgd{
                     display:block !important;
                 }
             }
 
-        @media screen and (min-device-width:1600px) and (max-device-width:1919px){
-            .container{
-                    background-position: left -200px top 0px !important;
+        @media screen and (min-device-width:1022px) and (max-device-width:1561px){
+            .onsenbkgd{
+                    background-position: left -600px top 0px !important;
                 }
             }
 
-        @media screen and (min-device-width:1280px) and (max-device-width:1599px){
-            .container{
-                    background-position: left -100px top 0px !important;
+        @media screen and (min-device-width:832px) and (max-device-width:1021px){
+            .onsenbkgd{
+                    background-position: left -1200px top 0px !important;
                 }
         }
 
-        @media screen and (min-device-width:1024px) and (max-device-width:1279px){
-            .container{
-                background-position: left -200px top 0px !important;
+        @media screen and (min-device-width:0px) and (max-device-width:832px){
+            .onsenbkgd{
+                background-position: right -200px top 0px !important;
                 }
         }
 
-        @media screen and (min-device-width:640px) and (max-device-width:1023px){
-            .container{
+        /* @media screen and (min-device-width:640px) and (max-device-width:1023px){
+            .onsenbkgd{
                 background-position: left -270px top 0px !important;
                 }
         }
 
         @media screen and (min-device-width:0px) and (max-device-width:639px){
-            .container{
+            .onsenbkgd{
                 background-position: left -570px top 0px !important;
                 }
         }
-        }
+        } */

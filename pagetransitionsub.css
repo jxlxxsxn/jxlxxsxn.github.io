@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding:0;
+    background:black;
+}
+
+/* @keyframes pagetransitionsub{
+    0% {background-color:black;opacity:0;}
+
+    55% {background-color:black; opacity:0.1;}
+
+    60% {background-color:black;opacity:0.2;}
+
+    65% {background-color:black;opacity:0.3;}
+
+    70% {background-color:black;opacity:0.4;}
+
+    75% {background-color:black;opacity:0.5;}
+
+    80% {background-color:black;opacity:0.6;}
+
+    85% {background-color:black;opacity:0.7;}
+    
+    90% {background-color:black;opacity:0.8;}
+
+    95% {background-color:black;opacity:0.9;}
+
+    100%{background-color:black;opacity:1;}
+} */
+
+.loading .balloonboosweat {
+    position:absolute;
+    top:47%;
+    left:50%;
+    border:none;
+    outline:none;
+    animation:pagetransitionsubtext 3s linear;
+    animation-fill-mode:forwards;
+}
+
+.loading .L{
+    position:absolute;
+    top:50%;
+    left:43%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:pagetransitionsubtextL 3s linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes pagetransitionsubtextL{
+    0% {opacity:1;}
+    5% {opacity:1;}
+    10% {opacity:1;top:48%;}
+    15% {opacity:1;top:50%;}
+    20% {opacity:1;}
+    25% {opacity:1;}
+    30% {opacity:1;}
+    35% {opacity:1;}
+    40% {opacity:1;}
+    45% {opacity:1;}
+    50% {opacity:1;}
+    55% {opacity:0.5;}
+    100% {opacity:0;}
+}
+
+.loading .O{
+    position:absolute;
+    top:50%;
+    left:44%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:pagetransitionsubtextO 3s linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes pagetransitionsubtextO{
+    0% {opacity:1;}
+    5% {opacity:1;}
+    10% {opacity:1;}
+    15% {opacity:1;top:48%;}
+    20% {opacity:1;top:50%;}
+    25% {opacity:1;}
+    30% {opacity:1;}
+    35% {opacity:1;}
+    40% {opacity:1;}
+    45% {opacity:1;}
+    50% {opacity:1;}
+    55% {opacity:0.5;}
+    100% {opacity:0;}
+}
+
+.loading .A{
+    position:absolute;
+    top:50%;
+    left:45%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:pagetransitionsubtextA 3s linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes pagetransitionsubtextA{
+    0% {opacity:1;}
+    5% {opacity:1;}
+    10% {opacity:1;}
+    15% {opacity:1;}
+    20% {opacity:1;top:48%;}
+    25% {opacity:1;top:50%;}
+    30% {opacity:1;}
+    35% {opacity:1;}
+    40% {opacity:1;}
+    45% {opacity:1;}
+    50% {opacity:1;}
+    55% {opacity:0.5;}
+    100% {opacity:0;}
+}
+
+.loading .D{
+    position:absolute;
+    top:50%;
+    left:46%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:pagetransitionsubtextD 3s linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes pagetransitionsubtextD{
+    0% {opacity:1;}
+    5% {opacity:1;}
+    10% {opacity:1;}
+    15% {opacity:1;}
+    20% {opacity:1;}
+    25% {opacity:1;top:48%;}
+    30% {opacity:1;top:50%;}
+    35% {opacity:1;}
+    40% {opacity:1;}
+    45% {opacity:1;}
+    50% {opacity:1;}
+    55% {opacity:0.5;}
+    100% {opacity:0;}
+}
+
+.loading .I{
+    position:absolute;
+    top:50%;
+    left:47%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:pagetransitionsubtextI 3s linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes pagetransitionsubtextI{
+    0% {opacity:1;}
+    5% {opacity:1;}
+    10% {opacity:1;}
+    15% {opacity:1;}
+    20% {opacity:1;}
+    25% {opacity:1;}
+    30% {opacity:1;top:48%;}
+    35% {opacity:1;top:50%;}
+    40% {opacity:1;}
+    45% {opacity:1;}
+    50% {opacity:1;}
+    55% {opacity:0.5;}
+    100% {opacity:0;}
+}
+
+.loading .N{
+    position:absolute;
+    top:50%;
+    left:48%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:pagetransitionsubtextN 3s linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes pagetransitionsubtextN{
+    0% {opacity:1;}
+    5% {opacity:1;}
+    10% {opacity:1;}
+    15% {opacity:1;}
+    20% {opacity:1;}
+    25% {opacity:1;}
+    30% {opacity:1;}
+    35% {opacity:1;top:48%;}
+    40% {opacity:1;top:50%;}
+    45% {opacity:1;}
+    50% {opacity:1;}
+    55% {opacity:0.5;}
+    100% {opacity:0;}
+}
+
+.loading .G{
+    position:absolute;
+    top:50%;
+    left:49%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:pagetransitionsubtextG 3s linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes pagetransitionsubtextG{
+    0% {opacity:1;}
+    5% {opacity:1;}
+    10% {opacity:1;}
+    15% {opacity:1;}
+    20% {opacity:1;}
+    25% {opacity:1;}
+    30% {opacity:1;}
+    35% {opacity:1;}
+    40% {opacity:1;top:48%;}
+    45% {opacity:1;top:50%;}
+    50% {opacity:1;}
+    55% {opacity:0.5;}
+    100% {opacity:0;}
+}
+
+@keyframes pagetransitionsubtext{
+    0% {opacity:1;}
+
+    5% {opacity:1;}
+
+    10% {opacity:1;}
+
+    15% {opacity:1;}
+
+    20% {opacity:1;}
+
+    25% {opacity:1;}
+
+    30% {opacity:1;}
+
+    35% {opacity:1;}
+    
+    40% {opacity:1;}
+
+    45% {opacity:1;}
+
+    50% {opacity:1;}
+
+    55% {opacity:0.5;}
+
+    100% {opacity:0;}
+
+}
+
