@@ -1,0 +1,57 @@
+
+        body{
+            margin:0;
+            padding:0;
+            height:100%;
+            width:100%;
+        }
+        
+        .onsenbkgd{
+            height:100vh;
+            width:100vw;
+            background-image:url("images/onsen.png");
+            background-color:rgb(28, 29, 28);
+            background-size:cover;
+            background-attachment:fixed;
+            background-position:center;
+            background-repeat:no-repeat;
+
+           
+    
+
+        @media screen and (min-device-width:1920px){
+            .container{
+                    display:block !important;
+                }
+            }
+
+        @media screen and (min-device-width:1600px) and (max-device-width:1919px){
+            .container{
+                    background-position: left -200px top 0px !important;
+                }
+            }
+
+        @media screen and (min-device-width:1280px) and (max-device-width:1599px){
+            .container{
+                    background-position: left -100px top 0px !important;
+                }
+        }
+
+        @media screen and (min-device-width:1024px) and (max-device-width:1279px){
+            .container{
+                background-position: left -200px top 0px !important;
+                }
+        }
+
+        @media screen and (min-device-width:640px) and (max-device-width:1023px){
+            .container{
+                background-position: left -270px top 0px !important;
+                }
+        }
+
+        @media screen and (min-device-width:0px) and (max-device-width:639px){
+            .container{
+                background-position: left -570px top 0px !important;
+                }
+        }
+        }

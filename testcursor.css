@@ -22,6 +22,7 @@ body{
       margin-bottom: 10%;
       margin-left: -120%;
       border: none;
+      opacity:1;
       transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1),
         background-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
         border-color 0.3s cubic-bezier(0.25, 1, 0.5, 1),
@@ -47,17 +48,17 @@ body{
       background-repeat: no-repeat;
       background-position: center;
     } */
+/*     
+    #cursor .cursor__circle{
+      opacity: 1;
+    } */
     
-    #cursor.subtle .cursor__circle{
-      opacity: 0.16;
-    }
-    
-    #cursor.overlay .cursor__circle{
+    /* #cursor.overlay .cursor__circle{
       width: 48px;
       height: 48px;
       background-color: rgba(227, 222, 193, 0.08);
       border-color: transparent;
-    }
+    } */
   }
   
   

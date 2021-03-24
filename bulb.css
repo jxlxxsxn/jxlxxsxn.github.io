@@ -40,7 +40,7 @@ position:relative;
 
 .image-wrap.small .bulb-text{
     position:absolute;
-    bottom:27%;
+    bottom:13%;
     left:30%;
     visibility:hidden;
     color:black;
@@ -52,9 +52,11 @@ position:relative;
     
 
 
-.image-wrap.small .bulb2{
+.image-wrap.small .bulb2 a{
 background:url(images/lightbulbfrontpage.png) no-repeat center center;
 background-size:contain;
+border:none;
+outline:none;
 position:absolute;
 width:8%;
 height:60%;
@@ -66,9 +68,24 @@ animation: pendulum 9s infinite cubic-bezier(0.310, 0.440, 0.445, 1.650);
    -webkit-animation: pendulum 9s infinite cubic-bezier(0.310, 0.440, 0.445, 1.650);
   transform-origin:center top;
 }
-.image-wrap.small .bulb3{
+
+.image-wrap.small .bulb2-text{
+    position:absolute;
+    bottom:13%;
+    left:25%;
+    visibility:hidden;
+    color:black;
+}
+
+.bulb2:hover .bulb2-text{
+    visibility:visible;
+}
+
+.image-wrap.small .bulb3 a{
 background:url(images/lightbulbfrontpage.png) no-repeat center center;
 background-size:contain;
+border:none;
+outline:none;
 position:absolute;
 width:8%;
 height:60%;
@@ -81,9 +98,23 @@ animation: pendulum 10s infinite cubic-bezier(0.310, 0.300, 0.297, 0.300);
 transform-origin:center right;
 }
 
-.image-wrap.small .bulb4{
+.image-wrap.small .bulb3-text{
+    position:absolute;
+    bottom:13%;
+    left:25%;
+    visibility:hidden;
+    color:black;
+}
+
+.bulb3:hover .bulb3-text{
+    visibility:visible;
+}
+
+.image-wrap.small .bulb4 a{
     background:url(images/lightbulbfrontpage.png) no-repeat center center;
     background-size:contain;
+    border:none;
+    outline:none;
     position:absolute;
     width:8%;
     height:60%;
@@ -96,10 +127,22 @@ transform-origin:center right;
     transform-origin:center bottom;
     }
 
+.image-wrap.small .bulb4-text{
+        position:absolute;
+        bottom:13%;
+        left:37%;
+        visibility:hidden;
+        color:black;
+    }
+    
+.bulb4:hover .bulb4-text{
+        visibility:visible;
+    }
+
 .image-wrap.small .bulb1 a:hover{opacity:1}
-.image-wrap.small .bulb2:hover{opacity:1}
-.image-wrap.small .bulb3:hover{opacity:1}
-.image-wrap.small .bulb4:hover{opacity:1}
+.image-wrap.small .bulb2 a:hover{opacity:1}
+.image-wrap.small .bulb3 a:hover{opacity:1}
+.image-wrap.small .bulb4 a:hover{opacity:1}
 
 /* Keyframes */
 @-webkit-keyframes
