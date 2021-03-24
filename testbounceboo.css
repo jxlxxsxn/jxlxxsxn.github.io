@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#black {
+  height: 100vh;
+  width: 100vw;
+  background-color:black;
+}
+
+#boo {
+  background-image:url("images/boocursor128.png");
+  background-color:transparent;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 127px;
+  width: 127px;
+  background-repeat: no-repeat;
+  background-size: 128px;
+  background-position: center;
+}

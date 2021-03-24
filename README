@@ -1,0 +1,8 @@
+
+git status // check the status of everything
+
+git add . // Add everything you've changed/added into staged
+
+git commit -m "Message" // commit changes
+
+git push // push changes onto github
