@@ -15,7 +15,7 @@
             background-attachment:fixed;
             background-position:center;
             background-repeat:no-repeat;
-            animation:pagetransitionsub 3s linear;
+            animation:pagetransitionsub 1s linear;
 }
 
 @keyframes pagetransitionsub{

@@ -1,0 +1,529 @@
+.selected:before {
+    content: '';
+  }
+  
+  * {
+    -webkit-box-sizing: border-box; 
+            box-sizing:border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .menu {
+    text-align: justify;
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 15%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    animation:recipecardstransition 1s linear;
+    animation-fill-mode:forwards;
+}
+
+  @keyframes recipecardstransition{
+    0% {opacity:0;}
+
+    55% {opacity:0.1;}
+
+    60% {opacity:0.2;}
+
+    65% {opacity:0.3;}
+
+    70% {opacity:0.4;}
+
+    75% {opacity:0.5;}
+
+    80% {opacity:0.6;}
+
+    85% {opacity:0.7;}
+    
+    90% {opacity:0.8;}
+
+    95% {opacity:0.9;}
+
+    100%{opacity:1;z-index:99;}
+}
+  
+  .menu-item .menu-item > a {
+    color: #d4caca;
+  }
+  
+  .menu ol {
+    margin: auto;
+    position: relative;
+  }
+  
+  ol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction:column;
+  }
+  
+  .menu-item ol {
+    position: relative;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .menu-item {
+    border: 1px solid rgba(30, 30, 30, 0.5);
+    padding: 0;
+    font-size: 17px;
+    height: 25vh;
+    width: 20vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items:baseline;
+    line-height: 0.9em;
+    border-radius: 5%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .sub-menu a {
+    overflow: hidden;
+    font-size: 14px;
+  }
+  
+  .sub-menu:hover > .menu-item:first-of-type:hover > a {
+    overflow: visible;
+  }
+  
+  .menu > ol > .menu-item > a {
+    padding-top: 0.5%;
+  }
+  
+  /* .menu:hover > .menu-item {
+    -webkit-box-shadow: 1px 1px 5px 4px rgba(5, 5, 20, 0.7);
+            box-shadow: 1px 1px 5px 4px rgba(5, 5, 20, 0.7);
+  }
+  
+  .menu-item:hover {
+    -webkit-box-shadow: -1px -2px 2px 0px rgba(26, 26, 26, 0.44);
+            box-shadow: -1px -2px 2px 0px rgba(26, 26, 26, 0.44);
+    -webkit-box-shadow: -2px 0px 12px grey;
+            box-shadow: -2px 0px 12px grey;
+  } */
+  
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: #cacabc;
+    padding-bottom: 5px;
+  }
+  
+  .sub-menu a {
+    padding-top: 3px;
+    text-shadow: 1px 1px #484848;
+  }
+  
+  .menu-item:hover > a {
+    color: #f1ecec;
+  }
+  
+  
+  .menu-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+  }
+  
+  .menu:hover > ol > .menu-item {
+    -webkit-transition: top 0.2s ease 0.4s, background-color 0.2s easen, -webkit-transform 0.2s ease 0s;
+    transition: top 0.2s ease 0.4s, background-color 0.2s easen, -webkit-transform 0.2s ease 0s;
+    transition: top 0.2s ease 0.4s, transform 0.2s ease 0s, background-color 0.2s easen;
+    transition: top 0.2s ease 0.4s, transform 0.2s ease 0s, background-color 0.2s easen, -webkit-transform 0.2s ease 0s;
+  }
+  
+  .menu:hover > ol > .menu-item:hover {
+    -webkit-transition: top 0.2s ease 0s, background-color 0.2s ease, -webkit-transform 0.2s ease 0s;
+    transition: top 0.2s ease 0s, background-color 0.2s ease, -webkit-transform 0.2s ease 0s;
+    transition: top 0.2s ease 0s, transform 0.2s ease 0s, background-color 0.2s ease;
+    transition: top 0.2s ease 0s, transform 0.2s ease 0s, background-color 0.2s ease, -webkit-transform 0.2s ease 0s;
+  }
+  
+  .menu > ol > .menu-item:hover {
+    -webkit-transition: top 0.2s ease 0s, background-color 0.2s ease, -webkit-transform 0.2s ease;
+    transition: top 0.2s ease 0s, background-color 0.2s ease, -webkit-transform 0.2s ease;
+    transition: top 0.2s ease 0s, transform 0.2s ease, background-color 0.2s ease;
+    transition: top 0.2s ease 0s, transform 0.2s ease, background-color 0.2s ease, -webkit-transform 0.2s ease;
+  }
+  
+  .menu > ol > .menu-item {
+    -webkit-transition: top 0.2s ease 0.29s, background-color 0.2s ease, -webkit-transform 0.2s ease 0s;
+    transition: top 0.2s ease 0.29s, background-color 0.2s ease, -webkit-transform 0.2s ease 0s;
+    transition: top 0.2s ease 0.29s, transform 0.2s ease 0s, background-color 0.2s ease;
+    transition: top 0.2s ease 0.29s, transform 0.2s ease 0s, background-color 0.2s ease, -webkit-transform 0.2s ease 0s;
+    top: 0;
+  }
+  
+  .menu > ol > .menu-item:hover {
+    top: -30px;
+  }
+  
+  .menu > ol > .menu-item:first-of-type:hover {
+    top: 80px;
+  }
+
+  .menu > ol > .menu-item:nth-child(2):hover {
+    top:-80px;
+  }
+  
+  .menu-item:hover.sub-menu li {
+    pointer-events: auto;
+    -webkit-transition: top 0.2s ease-in 0s, opacity 0.2s ease-in 0.26s, background-color 0.2s ease, z-index 0s ease 0.62s, left 0.15s cubic-bezier(0.28, 0.26, 0.85, 0.33) 0.25s, -webkit-transform 0.2s cubic-bezier(0.06, 0.35, 0.58, 1) 0.45s;
+    transition: top 0.2s ease-in 0s, opacity 0.2s ease-in 0.26s, background-color 0.2s ease, z-index 0s ease 0.62s, left 0.15s cubic-bezier(0.28, 0.26, 0.85, 0.33) 0.25s, -webkit-transform 0.2s cubic-bezier(0.06, 0.35, 0.58, 1) 0.45s;
+    transition: top 0.2s ease-in 0s, transform 0.2s cubic-bezier(0.06, 0.35, 0.58, 1) 0.45s, opacity 0.2s ease-in 0.26s, background-color 0.2s ease, z-index 0s ease 0.62s, left 0.15s cubic-bezier(0.28, 0.26, 0.85, 0.33) 0.25s;
+    transition: top 0.2s ease-in 0s, transform 0.2s cubic-bezier(0.06, 0.35, 0.58, 1) 0.45s, opacity 0.2s ease-in 0.26s, background-color 0.2s ease, z-index 0s ease 0.62s, left 0.15s cubic-bezier(0.28, 0.26, 0.85, 0.33) 0.25s, -webkit-transform 0.2s cubic-bezier(0.06, 0.35, 0.58, 1) 0.45s;
+    top: 0;
+    left: 42.5px;
+  }
+  
+  .menu-item .sub-menu li {
+    pointer-events: none;
+    -webkit-transition: top 0.2s ease 0.4s, opacity 0.2s cubic-bezier(1, -0.11, 1, 1) 0s, background-color 0.2s ease, z-index 0s ease 0s, left 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-out 0s;
+    transition: top 0.2s ease 0.4s, opacity 0.2s cubic-bezier(1, -0.11, 1, 1) 0s, background-color 0.2s ease, z-index 0s ease 0s, left 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-out 0s;
+    transition: top 0.2s ease 0.4s, transform 0.2s ease-out 0s, opacity 0.2s cubic-bezier(1, -0.11, 1, 1) 0s, background-color 0.2s ease, z-index 0s ease 0s, left 0.2s ease-in 0.2s;
+    transition: top 0.2s ease 0.4s, transform 0.2s ease-out 0s, opacity 0.2s cubic-bezier(1, -0.11, 1, 1) 0s, background-color 0.2s ease, z-index 0s ease 0s, left 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-out 0s;
+    top: 0;
+    left: 0;
+  }
+  
+  .menu-item:hover .sub-menu li:hover {
+    top: -15px;
+  }
+  
+  .menu-item:hover .sub-menu li:first-of-type:hover {
+    top: 0;
+  }
+  
+  .menu-item:hover .menu-item:nth-child(1) {
+    -webkit-transform: translate(60%, 60%);
+            transform: translate(85%, 60%);
+    z-index: 10;
+    opacity: 1;
+  }
+  
+  .sub-menu li:nth-child(1) {
+    -webkit-transform: translate(0px, -0.7%);
+            transform: translate(0px, -0.7%);
+    background-color: #ccc8c8;
+    z-index: -1;
+    opacity: 0.8;
+  }
+  
+  .menu-item:hover .menu-item:nth-child(2) {
+    -webkit-transform: translate(60%, 50%);
+            transform: translate(90%, 50%);
+    z-index: 9;
+    opacity: 1;
+  }
+  
+  .sub-menu li:nth-child(2) {
+    -webkit-transform: translate(2px, -4px);
+            transform: translate(2px, -4px);
+    background-color: #ccc8c8;
+    z-index: -2;
+    opacity: 0.8;
+  }
+  
+  .menu-item:hover .menu-item:nth-child(3) {
+    -webkit-transform: translate(58px, -28px);
+            transform: translate(90%, 40%);
+    z-index: 8;
+    opacity: 1;
+  }
+  
+  .sub-menu li:nth-child(3) {
+    -webkit-transform: translate(4px, -6px);
+            transform: translate(4px, -6px);
+    background-color: #ccc8c8;
+    z-index: -3;
+    opacity: 0.8;
+  }
+  
+  .menu:hover > ol > li:nth-child(1) {
+    -webkit-transform: translate(-40px, 52px);
+            transform: translate(-40px, 52px);
+    z-index: 30;
+  }
+  
+  .menu > ol > li:nth-child(1) {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+    z-index: 20;
+  }
+  
+  .menu:hover > ol > li:nth-child(2) {
+    -webkit-transform: translate(-20px, 26px);
+            transform: translate(-20px, 26px);
+    z-index: 29;
+  }
+  
+  .menu > ol > li:nth-child(2) {
+    -webkit-transform: translate(-1px, 1px);
+            transform: translate(-1px, 1px);
+    z-index: 19;
+  }
+  
+  .menu:hover > ol > li:nth-child(3) {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    z-index: 28;
+  }
+  
+  .menu > ol > li:nth-child(3) {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+    z-index: 18;
+  }
+  
+  .menu:hover > ol > li:nth-child(4) {
+    -webkit-transform: translate(20px, -26px);
+            transform: translate(20px, -26px);
+    z-index: 27;
+  }
+  
+  .menu > ol > li:nth-child(4) {
+    -webkit-transform: translate(1px, -1px);
+            transform: translate(1px, -1px);
+    z-index: 17;
+  }
+  
+  .menu:hover > ol > li:nth-child(5) {
+    -webkit-transform: translate(40px, -52px);
+            transform: translate(40px, -52px);
+    z-index: 26;
+  }
+  
+  .menu > ol > li:nth-child(5) {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+    z-index: 16;
+  }
+  
+  .menu-item .sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+  }
+  
+  ol {
+    padding: 0;
+  }
+  
+  .menu > ol > li:nth-child(1) {
+    background-color: #f0e4ea;
+  }
+  
+  .menu > ol > li:nth-child(1) > a {
+    width: 100%;
+    height: 100%;
+    background: #ff0381;
+  }
+  
+  .menu > ol > li:nth-child(1) .menu-item:nth-child(1) {
+    background-color: #ff0381;
+  }
+  
+  .menu > ol > li:nth-child(1) .menu-item:nth-child(1):hover {
+    background-color: hotpink;
+  }
+  
+  .menu > ol > li:nth-child(1) .menu-item:nth-child(2) {
+    background-color: #e90074;
+  }
+  
+  .menu > ol > li:nth-child(1) .menu-item:nth-child(2):hover {
+    background-color: #ff369b;
+  }
+  
+  .menu > ol > li:nth-child(1) .menu-item:nth-child(3) {
+    background-color: #cf0068;
+  }
+  
+  .menu > ol > li:nth-child(1) .menu-item:nth-child(3):hover {
+    background-color: #ff0381;
+  }
+  
+  .menu > ol > li:nth-child(1):hover > a {
+    width: 100%;
+    height: 100%;
+    background-color: #ff1d8e;
+  }
+  
+  .menu > ol > li:nth-child(2) {
+    background-color: #c71e00;
+  }
+  
+  .menu > ol > li:nth-child(2) > a {
+    width: 100%;
+    height: 100%;
+    background: #c71e00;
+  }
+  
+  .menu > ol > li:nth-child(2) .menu-item:nth-child(1) {
+    background-color: #e02200;
+  }
+  
+  .menu > ol > li:nth-child(2) .menu-item:nth-child(1):hover {
+    background-color: tomato;
+  }
+  
+  .menu > ol > li:nth-child(2) .menu-item:nth-child(2) {
+    background-color: #c71e00;
+  }
+  
+  .menu > ol > li:nth-child(2) .menu-item:nth-child(2):hover {
+    background-color: #ff3814;
+  }
+  
+  .menu > ol > li:nth-child(2) .menu-item:nth-child(3) {
+    background-color: #ad1a00;
+  }
+  
+  .menu > ol > li:nth-child(2) .menu-item:nth-child(3):hover {
+    background-color: #e02200;
+  }
+  
+  .menu > ol > li:nth-child(2):hover > a {
+    width: 100%;
+    height: 100%;
+    background-color: #fa2600;
+  }
+  
+  .menu > ol > li:nth-child(3) {
+    background-color: #2d5462;
+  }
+  
+  .menu > ol > li:nth-child(3) > a {
+    width: 100%;
+    height: 100%;
+    background: #2d5462;
+  }
+  
+  .menu > ol > li:nth-child(3) .menu-item:nth-child(1) {
+    background-color: #356374;
+  }
+  
+  .menu > ol > li:nth-child(3) .menu-item:nth-child(1):hover {
+    background-color: #5a9cb4;
+  }
+  
+  .menu > ol > li:nth-child(3) .menu-item:nth-child(2) {
+    background-color: #2d5462;
+  }
+  
+  .menu > ol > li:nth-child(3) .menu-item:nth-child(2):hover {
+    background-color: #448197;
+  }
+  
+  .menu > ol > li:nth-child(3) .menu-item:nth-child(3) {
+    background-color: #254550;
+  }
+  
+  .menu > ol > li:nth-child(3) .menu-item:nth-child(3):hover {
+    background-color: #356374;
+  }
+  
+  .menu > ol > li:nth-child(3):hover > a {
+    width: 100%;
+    height: 100%;
+    background-color: #3c7285;
+  }
+
+  .menu > ol > li:nth-child(4) {
+    background-color: #2e986d;
+  } 
+  
+  .menu > ol > li:nth-child(4) > a {
+    width: 100%;
+    height: 100%;
+    background: #2e986d;
+  }
+  
+  .menu > ol > li:nth-child(4) .menu-item:nth-child(1) {
+    background-color: #34ac7b;
+  }
+  
+  .menu > ol > li:nth-child(4) .menu-item:nth-child(1):hover {
+    background-color: #72d4ac;
+  }
+  
+  .menu > ol > li:nth-child(4) .menu-item:nth-child(2) {
+    background-color: #2e986d;
+  }
+  
+  .menu > ol > li:nth-child(4) .menu-item:nth-child(2):hover {
+    background-color: #4bc895;
+  }
+  
+  .menu > ol > li:nth-child(4) .menu-item:nth-child(3) {
+    background-color: #28855f;
+  }
+  
+  .menu > ol > li:nth-child(4) .menu-item:nth-child(3):hover {
+    background-color: #34ac7b;
+  }
+  
+  .menu > ol > li:nth-child(4):hover > a {
+    width: 100%;
+    height: 100%;
+    background-color: #3abf89;
+  }
+  
+  .menu > ol > li:nth-child(5) {
+    background-color: purple;
+  }
+  
+  .menu > ol > li:nth-child(5) > a {
+    width: 100%;
+    height: 100%;
+    background: purple;
+  }
+  
+  .menu > ol > li:nth-child(5) .menu-item:nth-child(1) {
+    background-color: #990099;
+  }
+  
+  .menu > ol > li:nth-child(5) .menu-item:nth-child(1):hover {
+    background-color: magenta;
+  }
+  
+  .menu > ol > li:nth-child(5) .menu-item:nth-child(2) {
+    background-color: purple;
+  }
+  
+  .menu > ol > li:nth-child(5) .menu-item:nth-child(2):hover {
+    background-color: #cc00cc;
+  }
+  
+  .menu > ol > li:nth-child(5) .menu-item:nth-child(3) {
+    background-color: #660066;
+  }
+  
+  .menu > ol > li:nth-child(5) .menu-item:nth-child(3):hover {
+    background-color: #990099;
+  }
+  
+  .menu > ol > li:nth-child(5):hover > a {
+    width: 100%;
+    height: 100%;
+    background-color: #b300b3;
+  }
+  /*# sourceMappingURL=teststackedcards.css.map */
