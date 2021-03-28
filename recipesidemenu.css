@@ -126,6 +126,10 @@ nav ul ul li a{
     opacity:0.5;
     display:none;
 }
+#recipecarbonara:target{
+    display:block;
+}
+
 #recipecnos{
     color:white;
     padding-left:5%;
@@ -140,32 +144,61 @@ nav ul ul li a{
     top:15%;
     left:170%;
     border-radius:3%;
-    opacity:0.8;
+    opacity:1;
     display:none;
     overflow-y:auto;
 }
-
 #recipecnos p{
     text-align:left;
     top:0%;
     line-height:1.6;
 }
-
 #recipecnos h1{
     text-align:left;
     font-size:140%;
 }
-
 #recipecnos h2{
     text-align:left;
     font-size:110%;
     line-height:1.6;
 }
-
-#recipecarbonara:target{
-    display:block;
-}
 #recipecnos:target{
+    display:block;                     
+}
+
+#recipebc{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/bc.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipebc p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipebc h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipebc h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipebc:target{
     display:block;                     
 }
 
