@@ -53,7 +53,7 @@
   left: 0px;
 }
 .sidebar .text{
-  color: rgb(44, 44, 44);
+  color: white;
   font-size: 25px;
   font-weight: 600;
   line-height: 250%;
@@ -66,6 +66,7 @@ nav ul{
   height: 100%;
   width: 100%;
   list-style: none;
+  overflow-y:scroll;
 }
 nav ul li{
   line-height: 60px;
@@ -75,7 +76,7 @@ nav ul li{
 } */
 nav ul li a{
   position: relative;
-  color: rgb(44,44,44);
+  color: white;
   text-decoration: none;
   font-size: 120%;
   font-weight: 500;
@@ -84,7 +85,7 @@ nav ul li a{
   border-left: 3px solid transparent;
 }
 nav ul li.active a{
-  color: rgb(44,44,44);
+  color: white;
   background: none;
   border-left-color: rgb(255, 167, 67);
 }
@@ -110,7 +111,7 @@ nav ul ul li{
 }
 nav ul ul li a{
   font-size: 100%;
-  color: rgb(44, 44, 44);
+  color: white;
 }
 #recipecarbonara{
     color:white;
@@ -120,13 +121,14 @@ nav ul ul li a{
     background:rgb(226, 210, 204);
     position:absolute;
     top:15%;
-    left:150%;
+    left:170%;
     border-radius:3%;
     opacity:0.5;
     display:none;
 }
 #recipecnos{
     color:white;
+    padding-left:5%;
     background-image:url("images/cnos1.png");
     background-size:contain;
     background-repeat:no-repeat;
@@ -136,7 +138,7 @@ nav ul ul li a{
     height:70%;
     position:absolute;
     top:15%;
-    left:150%;
+    left:170%;
     border-radius:3%;
     opacity:0.8;
     display:none;
@@ -168,7 +170,7 @@ nav ul ul li a{
 }
 
 nav ul li.active ul li a{
-  color: rgb(44, 44, 44);
+  color: white;
   background: none;
   border-left-color: transparent;
 }

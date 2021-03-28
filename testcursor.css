@@ -1,6 +1,6 @@
 body{
   margin:0;
-  cursor:url(images/cursorcirclewhite.png),pointer;
+  cursor:pointer;
 }
 
 #cursor {
