@@ -13,7 +13,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background:rgb(181, 204, 247);
+    background:rgb(218, 206, 252);
     border-radius:70%;
 }
 
@@ -105,6 +105,12 @@ nav ul .desserts-show.show1{
 nav ul .asian-show.show2{
     display:block;
 }
+nav ul .comfortfood-show.show3{
+    display: block;
+}
+nav ul .cocktails-show.show4{
+    display: block;
+}
 nav ul ul li{
   line-height: 42px;
   border-top: none;
@@ -113,22 +119,84 @@ nav ul ul li a{
   font-size: 100%;
   color: white;
 }
+
+/* Carbonara */
+
 #recipecarbonara{
     color:white;
-    text-align:center;
+    padding-left:5%;
+    background-image:url("images/carbonara.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
     width:400%;
     height:70%;
-    background:rgb(226, 210, 204);
     position:absolute;
     top:15%;
     left:170%;
     border-radius:3%;
-    opacity:0.5;
+    opacity:1;
     display:none;
+    overflow-y:auto;
+}
+#recipecarbonara p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipecarbonara h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipecarbonara h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
 }
 #recipecarbonara:target{
-    display:block;
+    display:block;                     
 }
+
+/* Lasagna */
+
+#recipelasagna{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/lasagna.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipelasagna p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipelasagna h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipelasagna h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipelasagna:target{
+    display:block;                     
+}
+
+/* Custom New Orleans Sauce */
 
 #recipecnos{
     color:white;
@@ -166,6 +234,8 @@ nav ul ul li a{
     display:block;                     
 }
 
+/* Butter Chicken */
+
 #recipebc{
     color:white;
     padding-left:5%;
@@ -200,6 +270,63 @@ nav ul ul li a{
 }
 #recipebc:target{
     display:block;                     
+}
+
+/*Braised Pork Belly */
+
+#recipebpb{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/braisedporkbelly.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipebpb p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipebpb h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipebpb h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipebpb:target{
+    display:block;                     
+}
+
+/* Potato Salad */
+
+#recipepotsal{
+    color:white;
+    text-align:center;
+    width:400%;
+    height:70%;
+    background:rgb(226, 210, 204);
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:0.5;
+    display:none;
+}
+#recipepotsal:target{
+    display:block;
 }
 
 nav ul li.active ul li a{
