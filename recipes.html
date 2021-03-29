@@ -8,6 +8,7 @@
 
         <link href="recipebkgd.css" rel="stylesheet" type="text/css">
         <link href="testcursor.css" rel="stylesheet" type="text/css">
+        <link href="flickeringboo.css" rel="stylesheet" type="text/css">
         <link href="pagetransitionsub.css" rel="stylesheet" type="text/css">
         <link href="boostackedcards.css" rel="stylesheet" type="text/css">
         <link href="recipemenu.css" rel="stylesheet" type="text/css">
@@ -19,6 +20,15 @@
 
 
   <body>
+    <div class="boo-flicker">
+      <img src="images/boocursor128.png">
+    </div>
+
+    <div class="homebutton">
+      <a href="frontpage.html" target="_self"></a>
+      <img src="images/homebutton.png" width=60% height=40%>
+    </div>
+
     <div class="btn">
       <span class="fas fa-bars"></span>
     </div>
@@ -27,12 +37,14 @@
     <ul>
       <li class="active"><a href="#">About</a></li>
       <li>
-        <a href="#" class="pasta-btn">Pasta
+        <a href="#" class="italian-btn">Italian
           <span class="fas fa-caret-down first"></span>
         </a>
-        <ul class="pasta-show">
+        <ul class="italian-show">
           <li><a href="#recipecarbonara">Carbonara</a></li>
           <li><a href="#recipelasagna">Lasagna</a></li>
+          <li><a href="#reciperisotto">Risotto</a></li>
+          <li><a href="#recipeshrimpscampi">Shrimp Scampi</a></li>
         </ul>
         <div id="recipecarbonara">
           <h1>Carbonara</h1>
@@ -51,18 +63,23 @@
         </div>
         <div id="recipelasagna">
           <h1>Lasagna</h1>
-          <h2>Marinate: N/A <br> Prep Time: 10 min <br> Cook Time: 15 minutes</h2>
-          <p> <br> Ingredients: <br> 12 oz Spaghetti (3/4 box)
-          <br> 3 Large Eggs (2 whole eggs and 1 yolk) <br> 1-2 oz Grated Parmesan/Pecorino Romano 
-          <br> 3.5 oz Sliced Bacon/Pancetta/Guanciale (in cuboids)
-          <br> Salt and Ground Black Pepper by taste
+          <h2>Marinate: N/A <br> Prep Time: 30 minutes <br> Cook Time: 2-2.5 Hours</h2>
+          <p> <br> Ingredients:             
+          <br> 9 Lasagna Noodles <br> 1 lb Bulk Italian Sausage <br> 1 lb Ground Beef <br> 1 Medium Onion (diced)
+          <br> 3 Garlic Cloves (minced) <br> 1 Can (28 oz) Crushed Tomatoes <br> 2 Cans (12 oz) Tomato Paste <br> 2 Cans (12 oz) Tomato Sauce
+          <br> 2/3 Cup Water <br> 2.5 Tbsp Sugar <br> 4 Tbsp Chopped Fresh Parsley <br> 2 tsp Dried Basil Leaves
+          <br> 0.5 tsp Fennel Seeds <br> 1 Tbsp Salt <br> 1 tsp Italian Seasoning <br> 0.25 tsp Ground Pepper <br> 1 Large Egg (lightly beaten)
+          <br> 1 Carton (16 oz) Ricotta Cheese <br> 4 Cups (0.75 lb) Shredded Mozzarella Cheese <br> 0.75 Cup Grated Parmesan Cheese
           <br> <br> Steps: 
-          <br> 1. In a bowl, mix together the eggs, yolks and cheese. Season with a pinch of salt and generous black pepper.
-          <br> 2. Bring a large pot of slightly salted water to boil. Meanwhile, heat oil in a large skillet over medium heat, add the meat and saute until tender. Remove from heat and set aside.
-          <br> 3. Add pasta to the boiling water. (Optional: just before pasta is ready, reheat the meat). 
-          <br> 4. Reserve 1 cup of pasta water, drain the pasta and add to skillet over low heat. Stir for 1 minute.
-          <br> 5. Turn the heat off. Stir in the cheese-and-egg mixture and some reserved pasta water (for creaminess if needed).
-          <br> 6. Sprinkle with a bit of grated cheese and pepper if needed before serving. </p>
+          <br> 1. In a Dutch Oven or large skillet, cook sausage, beef, and onion on medium heat for 8-10 minutes until brown/crumbled. 
+          <br> 2. Add garlic to the skillet of meat, cook for 1 minute and drain.
+          <br> 3. Stir in crushed tomatoes, tomato paste, tomato sauce, and water. Season with sugar, Italian Seasoning, 3 Tbsp parsley, basil, fennel seeds, salt and pepper.
+          <br> 4. Bring  mixture to a boil, reduce heat and let simmer (covered) for 30 minutes to 1 hour while stirring.
+          <br> 5. Boil noodles in lightly salted water and drain. Rinse noodles with cold water.
+          <br> 6. In a bowl, mix egg, ricotta cheese, the remaining 1 Tbsp Parsley and an additional 0.5 tsp salt.
+          <br> 7. Preheat Oven to 375 F (191 C). It is okay to not grease the baking tray.
+          <br> 8. Layer the lasagna in the following order (bottom to top): meat sauce, 3 noodles, ricotta mixture, and sprinkles of mozzarella cheese and Parmesan cheese. Repeat layers twice.
+          <br> 9. Bake the lasagna while covered with aluminum foil for 25 minutes, and uncovered for 25 minutes until bubbly.</p>
         </div>
       </li>
       <li>
@@ -70,8 +87,8 @@
           <span class="fas fa-caret-down second"></span>
         </a>
         <ul class="desserts-show">
-          <li><a href="#">Cookies</a></li>
           <li><a href="#">Cheesecake</a></li>
+          <li><a href="#">Cookies</a></li>
         </ul>
       </li>
       <li>
@@ -79,9 +96,10 @@
           <span class="fas fa-caret-down third"></span>
         </a>
         <ul class="asian-show">
-          <li><a href='#recipecnos'>Custom New Orleans Sauce</a></li>
-          <li><a href='#recipebc'>Butter Chicken</a></li>
           <li><a href='#recipebpb'>Braised Pork Belly</a></li>
+          <li><a href='#recipebc'>Butter Chicken</a></li>
+          <li><a href='#recipecnos'>Custom New Orleans Sauce</a></li>
+          <li><a href="#recipetbns">Taiwanese Beef Noodle Soup</a></li>
         </ul>
         <div id="recipecnos">
           <h1>Custom New Orleans Sauce (For Various Protein Options)</h1>
@@ -143,9 +161,9 @@
           <span class="fas fa-caret-down fourth"></span>
         </a>
         <ul class="comfortfood-show">
-          <li><a href="#recipepotsal">Potato Salad</a></li>
           <li><a href="#">French Fries</a></li>
           <li><a href="#">Guacamole</a></li>
+          <li><a href="#recipepotsal">Potato Salad</a></li>
         </ul>
         <div id="recipepotsal"><p>HELLO BOOOOOO</p></div>
       </li>
@@ -173,8 +191,8 @@ HTML CSS & Javascript (Full Tutorial)</p>
       $(this).toggleClass("click");
       $('.sidebar').toggleClass("show");
     });
-      $('.pasta-btn').click(function(){
-        $('nav ul .pasta-show').toggleClass("show");
+      $('.italian-btn').click(function(){
+        $('nav ul .italian-show').toggleClass("show");
         $('nav ul .first').toggleClass("rotate");
       });
       $('.desserts-btn').click(function(){
