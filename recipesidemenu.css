@@ -318,6 +318,44 @@ nav ul ul li a{
     display:block;                     
 }
 
+/* Taiwanese Beef Noodle Soup */
+
+#recipetbns{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/tbns.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipetbns p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipetbns h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipetbns h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipetbns:target{
+    display:block;                     
+}
+
 /* Potato Salad */
 
 #recipepotsal{
