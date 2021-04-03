@@ -98,11 +98,11 @@ body {
       position:absolute;
       left:-8%;
       bottom:15%;
-     -webkit-animation: movingani 25s linear infinite normal;
-     -moz-animation: movingani 25s linear infinite normal;
-     -o-animation: movingani 25s linear infinite normal;
-      animation: movingani 25s linear infinite normal;
-      animation: movingani 25s linear infinite normal;
+     -webkit-animation: movingani 30s linear infinite normal;
+     -moz-animation: movingani 30s linear infinite normal;
+     -o-animation: movingani 30s linear infinite normal;
+      animation: movingani 30s linear infinite normal;
+      animation: movingani 30s linear infinite normal;
   }
 
   .boo-shadow-button{
@@ -118,7 +118,6 @@ body {
     position:absolute;
     right:6.5%;
     top:1%;
-    z-index:10;
     cursor:pointer;
     display:none;
 }
@@ -217,7 +216,7 @@ body {
   .balboo-spatula {
       position:absolute;
       right:-8%;
-      bottom:40%;
+      bottom:45%;
      -webkit-animation: moving 15s linear infinite normal;
      -moz-animation: moving 15s linear infinite normal;
      -o-animation: moving 15s linear infinite normal;
@@ -225,6 +224,105 @@ body {
       animation: moving 15s linear infinite normal;
   }
   
-  
+  @keyframes movement {
+    0%    { opacity:1; transform:translatex(0vw) translatey(-0px);}
+    4.3%    { opacity:0.3; transform:translatex(12vw) translatey(-20px);}
+    8.6%   { opacity:0.2; transform:translatex(24vw) translatey(-0px)}
+    12.9%   { opacity:0.3; transform:translatex(36vw) translatey(-20px);}
+    17.2%   { opacity:0.7; transform:translatex(48vw) translatey(-0px);}
+    21.5%   { opacity:0.4; transform:translatex(60vw) translatey(-20px);}
+    25.8%   { opacity:1; transform:translatex(72vw)translatey(-0px);}
+    30.1%   { opacity:0.3; transform:translatex(84vw) translatey(-20px);}
+    34.4%   { opacity:0.5; transform:translatex(96vw)translatey(-0px);}
+    38.7%   { opacity:0.1; transform:translatex(108vw) translatey(-20px);}
+    43%   { opacity:0.6; transform:translatex(120vw)translatey(-0px);}
+    47.3%   { opacity:0.7; transform:translatex(118vw)translatey(-20px) scalex(-1);}
+    51.6%   { opacity:1; transform:translatex(108vw)translatey(-0px) scalex(-1);}
+    55.9%   { opacity:0.6; transform:translatex(96vw) translatey(-20px) scalex(-1);}
+    60.2%   { opacity:0.4; transform:translatex(84vw)translatey(-0px) scalex(-1);}
+    64.5%   { opacity:0.3; transform:translatex(72vw) translatey(-20px) scalex(-1);}
+    68.8%   { opacity:1; transform:translatex(60vw)translatey(-0px) scalex(-1);}
+    73.1%   { opacity:0.3; transform:translatex(48vw) translatey(-20px) scalex(-1);}
+    77.4%   { opacity:1; transform:translatex(36vw)translatey(-0px) scalex(-1);}
+    81.7%   { opacity:0.2; transform:translatex(24vw) translatey(-20px) scalex(-1);}
+    86%   { opacity: 0.4; transform:translatex(12vw) translatey(-0px) scalex(-1);}
+    90.3%   { opacity: 0.3; transform:translatex(0vw) translatey(-20px) scalex(-1);}
+    94.6%   { opacity:1; transform:translatex(-10vw)translatey(-0px) scalex(-1);}
+    100%  { opacity:0.3; transform:translatex(-10vw)translatey(-20px)}
+}
+
+  @-o-keyframes movement{
+        0%   { opacity:1; transform:translatex(0px) translatey(-0px);}
+        5%   { opacity:0.3; transform:translatex(100px) translatey(-20px);}
+        10%   { opacity:1; transform:translatex(200px) translatey(-0px)}
+        15%   { opacity:0.3; transform:translatex(300px) translatey(-20px);}
+        20%   { opacity:1; transform:translatex(400px) translatey(-0px);}
+        25%   { opacity:0.3; transform:translatex(500px) translatey(-20px);}
+        30%   { opacity:1; transform:translatex(600px)translatey(-0px);}
+        35%   { opacity:0.3; transform:translatex(700px) translatey(-20px);}
+        40%   { opacity:1; transform:translatex(800px)translatey(-0px);}
+        45%   { opacity:0.3; transform:translatex(900px) translatey(-20px);}
+        50%   { opacity:1; transform:translatex(800px)translatey(-0px) scalex(-1);}
+        55%   { opacity:0.3; transform:translatex(700px) translatey(-20px) scalex(-1);}
+        60%   { opacity:1; transform:translatex(600px)translatey(-0px) scalex(-1);}
+        65%   { opacity:0.3; transform:translatex(500px) translatey(-20px) scalex(-1);}
+        70%   { opacity:1; transform:translatex(400px)translatey(-0px) scalex(-1);}
+        75%   { opacity:0.3; transform:translatex(300px) translatey(-20px) scalex(-1);}
+        80%   { opacity:1; transform:translatex(200px)translatey(-0px) scalex(-1);}
+        85%   { opacity:0.3; transform:translatex(100px) translatey(-20px) scalex(-1);}
+        100%  { opacity:1; transform:translatex(0px)translatey(-0px) scalex(-1)}
+    }
+  @-moz-keyframes movement{
+        0%   { opacity:1; transform:translatex(0px) translatey(-0px);}
+        5%   { opacity:0.3; transform:translatex(100px) translatey(-20px);}
+        10%   { opacity:1; transform:translatex(200px) translatey(-0px)}
+        15%   { opacity:0.3; transform:translatex(300px) translatey(-20px);}
+        20%   { opacity:1; transform:translatex(400px) translatey(-0px);}
+        25%   { opacity:0.3; transform:translatex(500px) translatey(-20px);}
+        30%   { opacity:1; transform:translatex(600px)translatey(-0px);}
+        35%   { opacity:0.3; transform:translatex(700px) translatey(-20px);}
+        40%   { opacity:1; transform:translatex(800px)translatey(-0px);}
+        45%   { opacity:0.3; transform:translatex(900px) translatey(-20px);}
+        50%   { opacity:1; transform:translatex(800px)translatey(-0px) scalex(-1);}
+        55%   { opacity:0.3; transform:translatex(700px) translatey(-20px) scalex(-1);}
+        60%   { opacity:1; transform:translatex(600px)translatey(-0px) scalex(-1);}
+        65%   { opacity:0.3; transform:translatex(500px) translatey(-20px) scalex(-1);}
+        70%   { opacity:1; transform:translatex(400px)translatey(-0px) scalex(-1);}
+        75%   { opacity:0.3; transform:translatex(300px) translatey(-20px) scalex(-1);}
+        80%   { opacity:1; transform:translatex(200px)translatey(-0px) scalex(-1);}
+        85%   { opacity:0.3; transform:translatex(100px) translatey(-20px) scalex(-1);}
+        100%  { opacity:1; transform:translatex(0px)translatey(-0px) scalex(-1)}
+    }
+  @-webkit-keyframes movement{
+        0%   { opacity:1; transform:translatex(0px) translatey(-0px);}
+        5%   { opacity:0.3; transform:translatex(100px) translatey(-20px);}
+        10%   { opacity:0.2; transform:translatex(200px) translatey(-0px)}
+        15%   { opacity:0.3; transform:translatex(300px) translatey(-20px);}
+        20%   { opacity:0.7; transform:translatex(400px) translatey(-0px);}
+        25%   { opacity:0.4; transform:translatex(500px) translatey(-20px);}
+        30%   { opacity:1; transform:translatex(600px)translatey(-0px);}
+        35%   { opacity:0.3; transform:translatex(700px) translatey(-20px);}
+        40%   { opacity:0.5; transform:translatex(800px)translatey(-0px);}
+        45%   { opacity:0.1; transform:translatex(900px) translatey(-20px);}
+        50%   { opacity:0.6; transform:translatex(800px)translatey(-0px) scalex(-1);}
+        55%   { opacity:0.7; transform:translatex(700px) translatey(-20px) scalex(-1);}
+        60%   { opacity:1; transform:translatex(600px)translatey(-0px) scalex(-1);}
+        65%   { opacity:0.6; transform:translatex(500px) translatey(-20px) scalex(-1);}
+        70%   { opacity:0.4; transform:translatex(400px)translatey(-0px) scalex(-1);}
+        75%   { opacity:0.3; transform:translatex(300px) translatey(-20px) scalex(-1);}
+        80%   { opacity:1; transform:translatex(200px)translatey(-0px) scalex(-1);}
+        85%   { opacity:0.3; transform:translatex(100px) translatey(-20px) scalex(-1);}
+        100%  { opacity:1; transform:translatex(0px)translatey(-0px) scalex(-1)}
+    }
+  .boo-mittens {
+      position:absolute;
+      left:-8%;
+      bottom:70%;
+     -webkit-animation: movement 20s linear infinite normal;
+     -moz-animation: movement 20s linear infinite normal;
+     -o-animation: movement 20s linear infinite normal;
+      animation: movement 20s linear infinite normal;
+      animation: movement 20s linear infinite normal;
+  }
   
   
