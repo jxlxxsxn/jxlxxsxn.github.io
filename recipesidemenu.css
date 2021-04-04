@@ -358,6 +358,44 @@ nav ul ul li a{
     display:block;                     
 }
 
+/* Miso Soup */
+
+#recipemisosoup{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/misosoup.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipemisosoup p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipemisosoup h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipemisosoup h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipemisosoup:target{
+    display:block;                     
+}
+
 /* Taiwanese Beef Noodle Soup */
 
 #recipetbns{
@@ -396,6 +434,44 @@ nav ul ul li a{
     display:block;                     
 }
 
+/* Tteokbokki */
+
+#recipetteokbokki{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/tteokbokki.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipetteokbokki p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipetteokbokki h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipetteokbokki h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipetteokbokki:target{
+    display:block;                     
+}
+
 /* Potato Salad */
 
 #recipepotsal{
@@ -414,6 +490,49 @@ nav ul ul li a{
 #recipepotsal:target{
     display:block;
 }
+
+
+/* Cocktails */
+
+/* Americano */
+
+#recipeamericano{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/americano.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipeamericano p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipeamericano h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipeamericano h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipeamericano:target{
+    display:block;                     
+}
+
+
 
 nav ul li.active ul li a{
   color: white;
