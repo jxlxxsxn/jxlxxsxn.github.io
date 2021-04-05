@@ -130,6 +130,8 @@ nav ul ul li a{
   color: white;
 }
 
+/* Italian */
+
 /* Carbonara */
 
 #recipecarbonara{
@@ -243,6 +245,48 @@ nav ul ul li a{
 #reciperisotto:target{
     display:block;                     
 }
+
+/* Dessert */
+
+/* Cheesecake */
+
+#recipecheesecake{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/cheesecake.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipecheesecake p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipecheesecake h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipecheesecake h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipecheesecake:target{
+    display:block;                     
+}
+
+/* Asian */
 
 /* Custom New Orleans Sauce */
 
@@ -469,6 +513,46 @@ nav ul ul li a{
     line-height:1.6;
 }
 #recipetteokbokki:target{
+    display:block;                     
+}
+
+/* Comfort Food */
+
+/* Guacamole */
+
+#recipeguacamole{
+    color:white;
+    padding-left:5%;
+    background-image:url("images/guacamole.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-x:100%;
+    text-align:right;
+    width:400%;
+    height:70%;
+    position:absolute;
+    top:15%;
+    left:170%;
+    border-radius:3%;
+    opacity:1;
+    display:none;
+    overflow-y:auto;
+}
+#recipeguacamole p{
+    text-align:left;
+    top:0%;
+    line-height:1.6;
+}
+#recipeguacamole h1{
+    text-align:left;
+    font-size:140%;
+}
+#recipeguacamole h2{
+    text-align:left;
+    font-size:110%;
+    line-height:1.6;
+}
+#recipeguacamole:target{
     display:block;                     
 }
 
