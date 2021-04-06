@@ -14,8 +14,8 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background:rgb(218, 206, 252);
-    border-radius:70%;
+    background:rgb(255, 250, 228);
+    border-radius:8px;
 }
 
 .homebutton{

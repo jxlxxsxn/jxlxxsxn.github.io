@@ -16,7 +16,7 @@
             background-position:center;
             background-repeat:no-repeat;
             animation:pagetransitionsub 1s linear;
-            animation:cycleimages 60s ease-in-out infinite alternate;
+            animation:cycleimages 60s ease-in-out infinite normal;
 }
 
 @keyframes pagetransitionsub{
@@ -44,12 +44,12 @@
 }
 
 @keyframes cycleimages{
-    0% {background-image:url("images/onsennight.png");opacity:0.9;}
-    20% {background-image:url("images/onsendawn.png");opacity:0.92;}
-    40% {background-image:url("images/onsenfoggy.png");opacity:0.94;}
-    60% {background-image:url("images/onsendawn.png");opacity:0.96;}
-    80% {background-image:url("images/onsennight.png");opacity:0.98;}
-    100% {background-image:url("images/onsennight.png");opacity:1;}
+    0% {background-image:url("images/onsennight.png");opacity:0.95;}
+    20% {background-image:url("images/onsendawn.png");opacity:1;}
+    40% {background-image:url("images/onsenfoggy.png");opacity:1;}
+    60% {background-image:url("images/onsenafternoon.png");opacity:1;}
+    80% {background-image:url("images/onsennight.png");opacity:1;}
+    100% {background-image:url("images/onsennight.png");opacity:0.95;}
 }
         
            

@@ -40,8 +40,8 @@ position:relative;
 
 .image-wrap.small .bulb-text{
     position:absolute;
-    bottom:13%;
-    left:30%;
+    bottom:11%;
+    left:26%;
     visibility:hidden;
     color:black;
 }
@@ -101,7 +101,7 @@ transform-origin:center right;
 .image-wrap.small .bulb3-text{
     position:absolute;
     bottom:13%;
-    left:25%;
+    left:15%;
     visibility:hidden;
     color:black;
 }
@@ -129,8 +129,8 @@ transform-origin:center right;
 
 .image-wrap.small .bulb4-text{
         position:absolute;
-        bottom:13%;
-        left:37%;
+        bottom:11%;
+        left:30%;
         visibility:hidden;
         color:black;
     }
