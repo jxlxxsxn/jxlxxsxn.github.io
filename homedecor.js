@@ -1,5 +1,3 @@
-// Design by Catalin V. (@hiskio https://twitter.com/hiskio) 
-// https://dribbble.com/shots/3408986-Info-Card-Daily-UI-045
 
 const slideElements = ['.back__slide', '.card__slide', '.content__slide'];
 let inProgress = false;
