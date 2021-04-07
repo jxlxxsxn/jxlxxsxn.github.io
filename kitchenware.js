@@ -1,4 +1,3 @@
-
 const slideElements = ['.back__slide', '.card__slide', '.content__slide'];
 let inProgress = false;
 
@@ -27,8 +26,8 @@ const goToSlide = (slideElements, index) => {
 $('.content__slide:nth-child(1) .button').on('click', () => goToSlide(slideElements, 2));
 $('.content__slide:nth-child(2) .button').on('click', () => goToSlide(slideElements, 1));
 
-setTimeout(() => goToSlide(slideElements, 2), 2000);
-setTimeout(() => goToSlide(slideElements, 1), 6000);
+setTimeout(() => goToSlide(slideElements, 2), 1000);
+setTimeout(() => goToSlide(slideElements, 1), 3000);
 
 // let amount = 0;
 // let slide = 0;
