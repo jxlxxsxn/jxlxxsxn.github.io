@@ -26,17 +26,8 @@ const goToSlide = (slideElements, index) => {
 $('.content__slide:nth-child(1) .button').on('click', () => goToSlide(slideElements, 2));
 $('.content__slide:nth-child(2) .button').on('click', () => goToSlide(slideElements, 1));
 
-$('.content__slide:nth-child(1) .button').click(function(){
-  $("label").show();
-})
-
-$('.content__slide:nth-child(2) .button').click(function(){
-  $("label").hide();
-})
-
-
-// setTimeout(() => goToSlide(slideElements, 2), 1000);
-// setTimeout(() => goToSlide(slideElements, 1), 3000);
+setTimeout(() => goToSlide(slideElements, 2), 1000);
+setTimeout(() => goToSlide(slideElements, 1), 3000);
 
 // let amount = 0;
 // let slide = 0;

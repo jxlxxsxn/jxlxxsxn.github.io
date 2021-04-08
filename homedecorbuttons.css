@@ -30,6 +30,10 @@
       opacity:0.5;
   }
 
+  .kitchenwarebutton:hover .card{
+    filter:blur(10px);
+}
+
   .livingroombutton{
     background:none;
     text-align:center;
