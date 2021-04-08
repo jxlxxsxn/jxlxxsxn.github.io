@@ -34,6 +34,24 @@ $('.content__slide:nth-child(2) .button').click(function(){
   $("label").hide();
 })
 
+$('.cookware').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+$('.utencils').slick({
+  dots: true,
+  centermode:true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+
 
 // setTimeout(() => goToSlide(slideElements, 2), 1000);
 // setTimeout(() => goToSlide(slideElements, 1), 3000);

@@ -58,7 +58,7 @@ body, .wrap {
   opacity: 1;
 }
 .back__slide:nth-child(even) {          /* Flip Card: overlay BIG back-image */
-  background:#f5c255 ;
+  background:black ;
 }
 .back__slide:nth-child(even) .progress {
   background: #000000;
@@ -94,7 +94,7 @@ body, .wrap {
 }
 .back__slide:nth-child(2) .back-front-image:after {                 /* Flip Card: overlay color for BIG front-image */
   content: "";
-  background: linear-gradient(#f1b637, rgb(201, 152, 231),rgb(105, 56, 83) 80%);
+  background: rgb(41, 34, 21);
   display: block;
   position: absolute;
   left: 0;
@@ -730,8 +730,67 @@ body, .wrap {
   transition: transform 800ms cubic-bezier(0.165, 0.84, 0.44, 1), opacity 300ms linear;
 }
 
-label {
+
+/* Sub-categories */
+
+.cookware {
   position:absolute;
+  background:rgba(255, 0, 0, 0.356);
+  width:45%;
+  height:90%;
+  top:5%;
+  left:27%;
+  border-radius:2%;
+  text-align:center;
+  color:cyan;
+  display:none;
+  z-index:98;
+}
+
+.slick-next::before, .slick-prev::before {
+  position:absolute;
+  left:2%;
+  color: rgb(255, 255, 255);
+  z-index:98;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color:white !important;
+}
+
+.cookware p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cookware img {
+  margin: 0 auto;
+}
+
+
+
+.utencils {
+  position:absolute;
+  background:rgba(111, 0, 255, 0.356);
+  width:45%;
+  height:90%;
+  top:5%;
+  left:27%;
+  border-radius:2%;
+  text-align:center;
+  color:cyan;
+  display:none;
+  z-index:98;
+}
+
+
+label:nth-of-type(1) {
+  position:absolute;
+  color:white;
   top:20%;
   right:5%;
   font-size:170%;
@@ -740,9 +799,28 @@ label {
   display:none;
 }
 
-input {
+label:nth-of-type(2) {
+  position:absolute;
+  color:white;
+  top:30%;
+  right:5.5%;
+  font-size:170%;
+  z-index:99;
+  cursor:pointer;
+  display:none;
+}
+
+input:nth-of-type(1) {
   position:absolute;
   top:20%;
+  right:5%;
+  cursor:pointer;
+  display:none;
+}
+
+input:nth-of-type(2) {
+  position:absolute;
+  top:30%;
   right:5%;
   cursor:pointer;
   display:none;
@@ -751,4 +829,12 @@ input {
 input:checked ~ .wrap {
   filter:blur(5px);
   transition:0.3s;
+}
+
+input:nth-of-type(1):checked ~ .cookware {
+  display:block;
+}
+
+input:nth-of-type(2):checked ~ .utencils {
+  display:block;
 }
