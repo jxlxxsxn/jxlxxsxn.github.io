@@ -798,6 +798,20 @@ body, .wrap {
   z-index:98;
 }
 
+.machines {
+  position:absolute;
+  background:rgba(133, 108, 108, 0.356);
+  width:45%;
+  height:90%;
+  top:5%;
+  left:27%;
+  border-radius:2%;
+  text-align:center;
+  color:cyan;
+  visibility:hidden;
+  z-index:98;
+}
+
 
 label:nth-of-type(1) {
   position:absolute;
@@ -832,6 +846,17 @@ label:nth-of-type(3) {
   display:none;
 }
 
+label:nth-of-type(4) {
+  position:absolute;
+  color:white;
+  top:50%;
+  right:5.2%;
+  font-size:170%;
+  z-index:99;
+  cursor:pointer;
+  display:none;
+}
+
 input:nth-of-type(1) {
   position:absolute;
   top:20%;
@@ -851,6 +876,14 @@ input:nth-of-type(2) {
 input:nth-of-type(3) {
   position:absolute;
   top:40%;
+  right:5%;
+  cursor:pointer;
+  display:none;
+}
+
+input:nth-of-type(4) {
+  position:absolute;
+  top:50%;
   right:5%;
   cursor:pointer;
   display:none;
@@ -886,5 +919,17 @@ input:nth-of-type(3):checked ~ .crockery {
 }
 
 input:nth-of-type(3):checked ~ label:nth-of-type(-n+2) {
+  visibility:hidden;
+}
+
+input:nth-of-type(3):checked ~ label:last-of-type {
+  visibility:hidden;
+}
+
+input:nth-of-type(4):checked ~ .machines {
+  visibility:visible;
+}
+
+input:nth-of-type(4):checked ~ label:nth-of-type(-n+3) {
   visibility:hidden;
 }

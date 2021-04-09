@@ -66,6 +66,15 @@ $('.crockery').slick({
   cssEase: 'linear'
 });
 
+$('.machines').slick({
+  dots: true,
+  centermode:true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
 
 
 
