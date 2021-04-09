@@ -735,7 +735,7 @@ body, .wrap {
 
 .cookware {
   position:absolute;
-  background:rgba(255, 0, 0, 0.356);
+  background:rgba(133, 108, 108, 0.356);
   width:45%;
   height:90%;
   top:5%;
@@ -763,12 +763,12 @@ body, .wrap {
 }
 
 .cookware p {
-  text-align: center;
-  font-weight: bold;
+  text-align:center;
+  font-weight:400;
 }
 
 .cookware img {
-  margin: 0 auto;
+  margin:4% 5%;
 }
 
 
