@@ -66,12 +66,12 @@ body, .wrap {
   opacity: 0.5;
 }
 .back__slide:nth-child(1):before {
-  background-image: url("images/kitchenbkgd.png");
+  background-image: url("images/fikakitchen.jpg");
   background-size:cover;
   opacity: 0.4;
 }
 .back__slide:nth-child(2):before {
-  background-image: url("images/pans.png");
+  background-image: url("images/fika2.jpg");
   opacity: 0.2;
   background-repeat: no-repeat;
   background-size: 100% cover;
@@ -175,6 +175,7 @@ body, .wrap {
 .card__slide:nth-child(even) .number:before {
   border-left: 0.15rem solid #000000;
 }
+
 .card__slide:nth-child(even):after {      /* Flip Card: Bar at the bottom */
   content: "";
   position: absolute;
@@ -182,11 +183,12 @@ body, .wrap {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f1b637;
+  background-color: rgba(179, 167, 137, 0.733);
   transform: scaleX(0);
   transform-origin: 100% 50%;
   transition: transform 500ms 600ms ease-in-out;
 }
+
 .card__slide:nth-child(even).active {
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
 }
@@ -238,7 +240,7 @@ body, .wrap {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("images/kitchenbkgd.png");
+  background-image: url("images/fikakitchen.jpg");
   background-size: 135% auto;
   background-position: center;
   opacity: 0.4;
@@ -270,7 +272,7 @@ body, .wrap {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("images/pans.png");
+  background-image: url("images/fika2.jpg");
   background-size: 101% auto;
   background-position: center 20%;
   background-repeat: no-repeat;
@@ -281,7 +283,7 @@ body, .wrap {
 }
 .card__slide:nth-child(2) .back-image:after {       /* Flip Card: Bkgd overlay for back-image in small rectangle */
   content: "";
-  background: linear-gradient(rgba(255, 255, 255, 0), #f1b637 100%);
+  background: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -743,7 +745,7 @@ body, .wrap {
   border-radius:2%;
   text-align:center;
   color:cyan;
-  display:none;
+  visibility:hidden;
   z-index:98;
 }
 
@@ -762,20 +764,15 @@ body, .wrap {
   color:white !important;
 }
 
-.cookware p {
-  text-align:center;
-  font-weight:400;
-}
 
 .cookware img {
   margin:4% 5%;
 }
 
 
-
-.utencils {
+.cutlery {
   position:absolute;
-  background:rgba(111, 0, 255, 0.356);
+  background:rgba(133, 108, 108, 0.356);
   width:45%;
   height:90%;
   top:5%;
@@ -783,7 +780,21 @@ body, .wrap {
   border-radius:2%;
   text-align:center;
   color:cyan;
-  display:none;
+  visibility:hidden;
+  z-index:98;
+}
+
+.crockery {
+  position:absolute;
+  background:rgba(133, 108, 108, 0.356);
+  width:45%;
+  height:90%;
+  top:5%;
+  left:27%;
+  border-radius:2%;
+  text-align:center;
+  color:cyan;
+  visibility:hidden;
   z-index:98;
 }
 
@@ -803,7 +814,18 @@ label:nth-of-type(2) {
   position:absolute;
   color:white;
   top:30%;
-  right:5.5%;
+  right:5.7%;
+  font-size:170%;
+  z-index:99;
+  cursor:pointer;
+  display:none;
+}
+
+label:nth-of-type(3) {
+  position:absolute;
+  color:white;
+  top:40%;
+  right:5.2%;
   font-size:170%;
   z-index:99;
   cursor:pointer;
@@ -826,15 +848,43 @@ input:nth-of-type(2) {
   display:none;
 }
 
+input:nth-of-type(3) {
+  position:absolute;
+  top:40%;
+  right:5%;
+  cursor:pointer;
+  display:none;
+}
+
 input:checked ~ .wrap {
   filter:blur(5px);
   transition:0.3s;
 }
 
 input:nth-of-type(1):checked ~ .cookware {
-  display:block;
+  visibility:visible;
 }
 
-input:nth-of-type(2):checked ~ .utencils {
-  display:block;
+input:nth-of-type(1):checked ~ label:nth-of-type(n+2) {
+  visibility:hidden;
+}
+
+input:nth-of-type(2):checked ~ .cutlery {
+  visibility:visible;
+}
+
+input:nth-of-type(2):checked ~ label:nth-of-type(1) {
+  visibility:hidden;
+}
+
+input:nth-of-type(2):checked ~ label:nth-of-type(n+3) {
+  visibility:hidden;
+}
+
+input:nth-of-type(3):checked ~ .crockery {
+  visibility:visible;
+}
+
+input:nth-of-type(3):checked ~ label:nth-of-type(-n+2) {
+  visibility:hidden;
 }

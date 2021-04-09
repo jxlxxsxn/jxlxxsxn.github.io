@@ -1,3 +1,4 @@
+
 const slideElements = ['.back__slide', '.card__slide', '.content__slide'];
 let inProgress = false;
 
@@ -34,6 +35,10 @@ $('.content__slide:nth-child(2) .button').click(function(){
   $("label").hide();
 })
 
+// if (activeIndex == 0) {
+//   $(this).find('.slide[data-index=0]').addClass('active')
+// }
+
 $('.cookware').slick({
   dots: true,
   infinite: true,
@@ -42,7 +47,8 @@ $('.cookware').slick({
   cssEase: 'linear'
 });
 
-$('.utencils').slick({
+
+$('.cutlery').slick({
   dots: true,
   centermode:true,
   infinite: true,
@@ -50,6 +56,17 @@ $('.utencils').slick({
   fade: true,
   cssEase: 'linear'
 });
+
+$('.crockery').slick({
+  dots: true,
+  centermode:true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
+
 
 
 
