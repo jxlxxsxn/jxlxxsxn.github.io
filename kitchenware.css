@@ -572,7 +572,7 @@ body, .wrap {
 }
 .content__slide:nth-child(even) .title__line:before {         /* Flip Card: Title bkgd color */
   left: -4rem;
-  background: linear-gradient(90deg,rgb(170, 80, 226),rgb(105, 56, 83));
+  background: linear-gradient(90deg,rgba(231, 150, 130, 0.733),rgba(230,202,202,0.733));
   transform-origin: 0% 50%;
 }
 .content__slide:nth-child(even).active .title__line:before {
@@ -784,6 +784,10 @@ body, .wrap {
   z-index:98;
 }
 
+.cutlery img {
+  margin:4% 5%;
+}
+
 .crockery {
   position:absolute;
   background:rgba(133, 108, 108, 0.356);
@@ -796,6 +800,10 @@ body, .wrap {
   color:cyan;
   visibility:hidden;
   z-index:98;
+}
+
+.crockery img {
+  margin:4% 5%;
 }
 
 .machines {
@@ -812,6 +820,10 @@ body, .wrap {
   z-index:98;
 }
 
+.machines img {
+  margin:4% 5%;
+}
+
 
 label:nth-of-type(1) {
   position:absolute;
@@ -823,6 +835,7 @@ label:nth-of-type(1) {
   cursor:pointer;
   display:none;
 }
+
 
 label:nth-of-type(2) {
   position:absolute;
